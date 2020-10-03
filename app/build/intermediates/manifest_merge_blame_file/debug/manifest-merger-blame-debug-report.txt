@@ -1,0 +1,318 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.farooq.lapitchat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET " />
+11-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:6:5-68
+11-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:6:22-65
+12    <!-- <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> -->
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:8:5-80
+13-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:8:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:9:5-81
+14-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15-->[com.firebaseui:firebase-ui-database:0.4.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\120a8dfa44291a5799a17bd95b292e2b\firebase-ui-database-0.4.0\AndroidManifest.xml:11:5-67
+15-->[com.firebaseui:firebase-ui-database:0.4.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\120a8dfa44291a5799a17bd95b292e2b\firebase-ui-database-0.4.0\AndroidManifest.xml:11:22-64
+16    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\53b3e33a737d86d903017cd2f85072bd\firebase-firestore-19.0.0\AndroidManifest.xml:13:5-79
+17-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\53b3e33a737d86d903017cd2f85072bd\firebase-firestore-19.0.0\AndroidManifest.xml:13:22-76
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\e76258aac7bbedd2476645bea92e34cb\play-services-maps-16.0.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\e76258aac7bbedd2476645bea92e34cb\play-services-maps-16.0.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\e76258aac7bbedd2476645bea92e34cb\play-services-maps-16.0.0\AndroidManifest.xml:28:9-32
+22
+23    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\cad8c7fc8b23c60491f656b9200a9cb5\play-services-measurement-api-16.5.0\AndroidManifest.xml:24:5-68
+23-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\cad8c7fc8b23c60491f656b9200a9cb5\play-services-measurement-api-16.5.0\AndroidManifest.xml:24:22-65
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\977061dd38cd06d0a0dbe613af7eb6ac\firebase-iid-18.0.0\AndroidManifest.xml:26:5-82
+24-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\977061dd38cd06d0a0dbe613af7eb6ac\firebase-iid-18.0.0\AndroidManifest.xml:26:22-79
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:26:22-107
+26
+27    <application
+27-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:11:5-62:19
+28        android:name="com.example.finderApp.finderApp"
+28-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:12:9-34
+29        android:allowBackup="true"
+29-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:13:9-35
+30        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+30-->[com.android.support:support-compat:28.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\3069847e982d2df82f9d99c0dbbd56fa\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:14:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:15:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:16:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:17:9-35
+36        android:testOnly="true"
+37        android:theme="@style/AppTheme" >
+37-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:18:9-40
+38        <activity android:name="com.example.finderApp.MainActivity" >
+38-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:19:9-25:20
+38-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:19:19-47
+39            <intent-filter>
+39-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:20:13-24:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:21:17-69
+40-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:21:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:23:17-77
+42-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:23:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.example.finderApp.StartActivity" />
+45-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:26:9-51
+45-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:26:19-48
+46        <activity
+46-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:27:9-29:59
+47            android:name="com.example.finderApp.RegsiterActivity"
+47-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:28:13-45
+48            android:parentActivityName="com.example.finderApp.StartActivity" />
+48-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:29:13-56
+49        <activity
+49-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:30:9-32:59
+50            android:name="com.example.finderApp.LoginActivity"
+50-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:31:13-42
+51            android:parentActivityName="com.example.finderApp.StartActivity" />
+51-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:32:13-56
+52        <activity android:name="com.example.finderApp.AccountSetting" />
+52-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:33:9-52
+52-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:33:19-49
+53        <!--
+54            <activity
+55            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+56            android:theme="@style/Base.Theme.AppCompat" /> &lt;!&ndash; optional (needed if default theme has no action bar) &ndash;&gt;
+57        -->
+58        <activity
+58-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:37:9-39:58
+59            android:name="com.example.finderApp.UsersActivity"
+59-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:38:13-42
+60            android:parentActivityName="com.example.finderApp.MainActivity" />
+60-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:39:13-55
+61        <activity android:name="com.example.finderApp.ProfileActivity" />
+61-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:40:9-53
+61-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:40:19-50
+62        <activity
+62-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:41:9-43:60
+63            android:name="com.example.finderApp.StatusActivity"
+63-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:42:13-43
+64            android:parentActivityName="com.example.finderApp.AccountSetting" />
+64-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:43:13-57
+65
+66        <!-- <service -->
+67        <!-- android:name=".notification.MyFirebaseMessagingService" -->
+68        <!-- android:permission="com.google.android.c2dm.permission.SEND"> -->
+69        <!-- <intent-filter> -->
+70        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
+71        <!-- <action android:name="com.google.android.c2dm.intent.RECEIVE" /> -->
+72        <!-- </intent-filter> -->
+73        <!-- </service> -->
+74        <!-- <service android:name=".notification.FirebaseIDService"> -->
+75        <!-- <intent-filter> -->
+76        <!-- <action android:name="com.google.firebase.INSTANCE_ID_EVENT" /> -->
+77        <!-- </intent-filter> -->
+78        <!-- </service> -->
+79
+80        <activity
+80-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:59:9-61:58
+81            android:name="com.example.finderApp.finderApp"
+81-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:60:13-38
+82            android:parentActivityName="com.example.finderApp.MainActivity" />
+82-->C:\Users\mailt\AndroidStudioProjects\FinderApp\app\src\main\AndroidManifest.xml:61:13-55
+83
+84        <service
+84-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\53b3e33a737d86d903017cd2f85072bd\firebase-firestore-19.0.0\AndroidManifest.xml:17:9-21:19
+85            android:name="com.google.firebase.components.ComponentDiscoveryService"
+85-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\53b3e33a737d86d903017cd2f85072bd\firebase-firestore-19.0.0\AndroidManifest.xml:17:18-89
+86            android:exported="false" >
+86-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\14310b2cdd8892df7841807549444be7\firebase-auth-17.0.0\AndroidManifest.xml:35:13-37
+87            <meta-data
+87-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\53b3e33a737d86d903017cd2f85072bd\firebase-firestore-19.0.0\AndroidManifest.xml:18:13-20:85
+88                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+88-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\53b3e33a737d86d903017cd2f85072bd\firebase-firestore-19.0.0\AndroidManifest.xml:19:17-111
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\53b3e33a737d86d903017cd2f85072bd\firebase-firestore-19.0.0\AndroidManifest.xml:20:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\14310b2cdd8892df7841807549444be7\firebase-auth-17.0.0\AndroidManifest.xml:36:13-38:85
+91                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+91-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\14310b2cdd8892df7841807549444be7\firebase-auth-17.0.0\AndroidManifest.xml:37:17-109
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\14310b2cdd8892df7841807549444be7\firebase-auth-17.0.0\AndroidManifest.xml:38:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-database:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\d927e9e6a241ae81e4c6da398751f98e\firebase-database-17.0.0\AndroidManifest.xml:30:13-32:85
+94                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+94-->[com.google.firebase:firebase-database:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\d927e9e6a241ae81e4c6da398751f98e\firebase-database-17.0.0\AndroidManifest.xml:31:17-109
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-database:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\d927e9e6a241ae81e4c6da398751f98e\firebase-database-17.0.0\AndroidManifest.xml:32:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\75eaaf2467723525ab1562509632851c\firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+97                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+97-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\75eaaf2467723525ab1562509632851c\firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\75eaaf2467723525ab1562509632851c\firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+99            <meta-data
+99-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\cad8c7fc8b23c60491f656b9200a9cb5\play-services-measurement-api-16.5.0\AndroidManifest.xml:30:13-32:85
+100                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+100-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\cad8c7fc8b23c60491f656b9200a9cb5\play-services-measurement-api-16.5.0\AndroidManifest.xml:31:17-139
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\cad8c7fc8b23c60491f656b9200a9cb5\play-services-measurement-api-16.5.0\AndroidManifest.xml:32:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\977061dd38cd06d0a0dbe613af7eb6ac\firebase-iid-18.0.0\AndroidManifest.xml:32:13-34:85
+103                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+103-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\977061dd38cd06d0a0dbe613af7eb6ac\firebase-iid-18.0.0\AndroidManifest.xml:33:17-96
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\977061dd38cd06d0a0dbe613af7eb6ac\firebase-iid-18.0.0\AndroidManifest.xml:34:17-82
+105        </service>
+106        <!--
+107             FirebaseMessagingService performs security checks at runtime,
+108             but set to not exported to explicitly avoid allowing another app to call it.
+109        -->
+110        <service
+110-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\c4daaa0fb1d3b2cab7a0bd3b3223ec9e\firebase-messaging-18.0.0\AndroidManifest.xml:28:9-34:19
+111            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+111-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\c4daaa0fb1d3b2cab7a0bd3b3223ec9e\firebase-messaging-18.0.0\AndroidManifest.xml:29:13-82
+112            android:exported="false" >
+112-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\c4daaa0fb1d3b2cab7a0bd3b3223ec9e\firebase-messaging-18.0.0\AndroidManifest.xml:30:13-37
+113            <intent-filter android:priority="-500" >
+113-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\c4daaa0fb1d3b2cab7a0bd3b3223ec9e\firebase-messaging-18.0.0\AndroidManifest.xml:31:13-33:29
+113-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\c4daaa0fb1d3b2cab7a0bd3b3223ec9e\firebase-messaging-18.0.0\AndroidManifest.xml:31:28-51
+114                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+114-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\c4daaa0fb1d3b2cab7a0bd3b3223ec9e\firebase-messaging-18.0.0\AndroidManifest.xml:32:17-78
+114-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\c4daaa0fb1d3b2cab7a0bd3b3223ec9e\firebase-messaging-18.0.0\AndroidManifest.xml:32:25-75
+115            </intent-filter>
+116        </service>
+117
+118        <activity
+118-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\14310b2cdd8892df7841807549444be7\firebase-auth-17.0.0\AndroidManifest.xml:24:9-31:50
+119            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+119-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\14310b2cdd8892df7841807549444be7\firebase-auth-17.0.0\AndroidManifest.xml:25:13-85
+120            android:excludeFromRecents="true"
+120-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\14310b2cdd8892df7841807549444be7\firebase-auth-17.0.0\AndroidManifest.xml:26:13-46
+121            android:exported="true"
+121-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\14310b2cdd8892df7841807549444be7\firebase-auth-17.0.0\AndroidManifest.xml:27:13-36
+122            android:launchMode="singleTask"
+122-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\14310b2cdd8892df7841807549444be7\firebase-auth-17.0.0\AndroidManifest.xml:28:13-44
+123            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+123-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\14310b2cdd8892df7841807549444be7\firebase-auth-17.0.0\AndroidManifest.xml:29:13-102
+124            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+124-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\14310b2cdd8892df7841807549444be7\firebase-auth-17.0.0\AndroidManifest.xml:30:13-72
+125
+126        <receiver
+126-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\977061dd38cd06d0a0dbe613af7eb6ac\firebase-iid-18.0.0\AndroidManifest.xml:37:9-44:20
+127            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+127-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\977061dd38cd06d0a0dbe613af7eb6ac\firebase-iid-18.0.0\AndroidManifest.xml:38:13-78
+128            android:exported="true"
+128-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\977061dd38cd06d0a0dbe613af7eb6ac\firebase-iid-18.0.0\AndroidManifest.xml:39:13-36
+129            android:permission="com.google.android.c2dm.permission.SEND" >
+129-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\977061dd38cd06d0a0dbe613af7eb6ac\firebase-iid-18.0.0\AndroidManifest.xml:40:13-73
+130            <intent-filter>
+130-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\977061dd38cd06d0a0dbe613af7eb6ac\firebase-iid-18.0.0\AndroidManifest.xml:41:13-43:29
+131                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+131-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\977061dd38cd06d0a0dbe613af7eb6ac\firebase-iid-18.0.0\AndroidManifest.xml:42:17-81
+131-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\977061dd38cd06d0a0dbe613af7eb6ac\firebase-iid-18.0.0\AndroidManifest.xml:42:25-78
+132            </intent-filter>
+133        </receiver>
+134
+135        <activity
+135-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7e963b230133ff6abef40aaa5f20dd7c\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+136            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+136-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7e963b230133ff6abef40aaa5f20dd7c\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7e963b230133ff6abef40aaa5f20dd7c\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+138            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+138-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7e963b230133ff6abef40aaa5f20dd7c\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+139
+140        <provider
+140-->[com.google.firebase:firebase-common:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\d717553e24d75265353c1ba3f68f8d3d\firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+141            android:name="com.google.firebase.provider.FirebaseInitProvider"
+141-->[com.google.firebase:firebase-common:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\d717553e24d75265353c1ba3f68f8d3d\firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+142            android:authorities="com.example.farooq.lapitchat.firebaseinitprovider"
+142-->[com.google.firebase:firebase-common:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\d717553e24d75265353c1ba3f68f8d3d\firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+143            android:exported="false"
+143-->[com.google.firebase:firebase-common:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\d717553e24d75265353c1ba3f68f8d3d\firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+144            android:initOrder="100" />
+144-->[com.google.firebase:firebase-common:17.0.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\d717553e24d75265353c1ba3f68f8d3d\firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+145
+146        <receiver
+146-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:29:9-33:20
+147            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+147-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:30:13-85
+148            android:enabled="true"
+148-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:31:13-35
+149            android:exported="false" >
+149-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:32:13-37
+150        </receiver>
+151        <receiver
+151-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:34:9-42:20
+152            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+152-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:35:13-100
+153            android:enabled="true"
+153-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:36:13-35
+154            android:exported="true"
+154-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:37:13-36
+155            android:permission="android.permission.INSTALL_PACKAGES" >
+155-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:38:13-69
+156            <intent-filter>
+156-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:39:13-41:29
+157                <action android:name="com.android.vending.INSTALL_REFERRER" />
+157-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:40:17-79
+157-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:40:25-76
+158            </intent-filter>
+159        </receiver>
+160
+161        <service
+161-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:44:9-47:40
+162            android:name="com.google.android.gms.measurement.AppMeasurementService"
+162-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:45:13-84
+163            android:enabled="true"
+163-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:46:13-35
+164            android:exported="false" />
+164-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:47:13-37
+165        <service
+165-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:48:9-52:72
+166            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+166-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:49:13-87
+167            android:enabled="true"
+167-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:50:13-35
+168            android:exported="false"
+168-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:51:13-37
+169            android:permission="android.permission.BIND_JOB_SERVICE" />
+169-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7488f79f174ce0e99fed3a002fa94f11\play-services-measurement-16.5.0\AndroidManifest.xml:52:13-69
+170
+171        <meta-data
+171-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\1a617ff7f1480981d9112941a43bbfa9\play-services-basement-16.2.0\AndroidManifest.xml:23:9-25:69
+172            android:name="com.google.android.gms.version"
+172-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\1a617ff7f1480981d9112941a43bbfa9\play-services-basement-16.2.0\AndroidManifest.xml:24:13-58
+173            android:value="@integer/google_play_services_version" />
+173-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\1a617ff7f1480981d9112941a43bbfa9\play-services-basement-16.2.0\AndroidManifest.xml:25:13-66
+174
+175        <provider
+175-->[com.squareup.picasso:picasso:2.71828] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7a1a9366911a80b1ea7fc34a8780fe15\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+176            android:name="com.squareup.picasso.PicassoProvider"
+176-->[com.squareup.picasso:picasso:2.71828] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7a1a9366911a80b1ea7fc34a8780fe15\picasso-2.71828\AndroidManifest.xml:9:13-64
+177            android:authorities="com.example.farooq.lapitchat.com.squareup.picasso"
+177-->[com.squareup.picasso:picasso:2.71828] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7a1a9366911a80b1ea7fc34a8780fe15\picasso-2.71828\AndroidManifest.xml:10:13-72
+178            android:exported="false" />
+178-->[com.squareup.picasso:picasso:2.71828] C:\Users\mailt\.gradle\caches\transforms-2\files-2.1\7a1a9366911a80b1ea7fc34a8780fe15\picasso-2.71828\AndroidManifest.xml:11:13-37
+179    </application>
+180
+181</manifest>
